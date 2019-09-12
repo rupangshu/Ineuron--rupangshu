@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: ineuronApp
+  memory: 128MB
+  disk_quota: 1GB
+  random-route: true
+  parameters:
+    memory: 128M
+    buildpack: 'python_buildpack'
